@@ -17,6 +17,7 @@ var
   
 
 begin
+
   try
   
    ms := tmemorystream.Create;
