@@ -6,13 +6,19 @@ You need fast-lzma2.dll to use this.
 A simple example:
 
 var
+
   ms: tmemorystream;
+  
   outbuff: pointer;
+  
   outsize: integer;
+  
   outa: TFileStream;
+  
 
 begin
   try
+  
    ms := tmemorystream.Create;
 	 
   ms.LoadFromFile(Paramstr(1)); {Loading file to memory}
